@@ -11,6 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- header start -->
@@ -122,7 +124,11 @@
             >
           </div>
           <div class="w-full self-end px-4 lg:w-1/2">
-            <div class="relative mt-10 lg:mt-0 lg:right-0">
+            <div
+              class="relative mt-10 lg:mt-0 lg:right-0"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
               <img
                 src="img/my-profil.png"
                 alt="Rizki"
@@ -280,7 +286,11 @@
         <div
           class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto"
         >
-          <div class="mb-12 p-4 md:w-1/2">
+          <div
+            class="mb-12 p-4 md:w-1/2"
+            data-aos="zoom-in-right"
+            data-aos-duration="1200"
+          >
             <div class="rounded-md shadow-md overflow-hidden">
               <img src="img/image/img1.png" alt="image-slider" width="w-full" />
             </div>
@@ -292,7 +302,12 @@
               Voluptate, velit!
             </p>
           </div>
-          <div class="mb-12 p-4 md:w-1/2">
+          <div
+            class="mb-12 p-4 md:w-1/2"
+            data-aos="zoom-in-left"
+            data-aos-duration="1200"
+            data-aos-delay="200"
+          >
             <div class="rounded-md shadow-md overflow-hidden">
               <img src="img/image/img2.png" alt="image-slider" width="w-full" />
             </div>
@@ -304,7 +319,11 @@
               Voluptate, velit!
             </p>
           </div>
-          <div class="mb-12 p-4 md:w-1/2">
+          <div
+            class="mb-12 p-4 md:w-1/2"
+            data-aos="zoom-in-right"
+            data-aos-duration="1200"
+          >
             <div class="rounded-md shadow-md overflow-hidden">
               <img src="img/image/img3.png" alt="image-slider" width="w-full" />
             </div>
@@ -316,7 +335,12 @@
               Voluptate, velit!
             </p>
           </div>
-          <div class="mb-12 p-4 md:w-1/2">
+          <div
+            class="mb-12 p-4 md:w-1/2"
+            data-aos="zoom-in-left"
+            data-aos-duration="1200"
+            data-aos-delay="200"
+          >
             <div class="rounded-md shadow-md overflow-hidden">
               <img src="img/image/img4.png" alt="image-slider" width="w-full" />
             </div>
@@ -328,7 +352,11 @@
               Voluptate, velit!
             </p>
           </div>
-          <div class="mb-12 p-4 md:w-1/2">
+          <div
+            class="mb-12 p-4 md:w-1/2"
+            data-aos="zoom-in-up"
+            data-aos-duration="1200"
+          >
             <div class="rounded-md shadow-md overflow-hidden">
               <img
                 src="img/image/Screenshot 2024-11-04 202845.png"
@@ -389,7 +417,7 @@
             </a>
             <a
               href="#"
-              class="max-w-[120px] mx-4 py-4 opacity-60 text-slate-500 transition duration-300 hover:text-blue-600 hover:opacity-100 lg:mx-6 xl:mx-8"
+              class="max-w-[120px] mx-4 py-4 opacity-60 text-slate-500 transition duration-300 hover:text-blue-600 hover:opacity-100"
             >
               <svg
                 role="img"
@@ -463,7 +491,11 @@
           </div>
         </div>
         <div class="flex flex-wrap">
-          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div
+            class="w-full px-4 lg:w-1/2 xl:w-1/3"
+            data-aos="fade-right"
+            data-aos-duration="1300"
+          >
             <div class="bg-white mb-10 rounded-xl shadow-lg overflow-hidden">
               <img src="img/foto1.jpg" alt="" class="w-full" />
               <div class="py-8 px-6">
@@ -485,7 +517,12 @@
               </div>
             </div>
           </div>
-          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div
+            class="w-full px-4 lg:w-1/2 xl:w-1/3"
+            data-aos="fade-left"
+            data-aos-duration="1300"
+            data-aos-delay="200"
+          >
             <div class="bg-white mb-10 rounded-xl shadow-lg overflow-hidden">
               <img src="img/foto2.jpg" alt="" class="w-full" />
               <div class="py-8 px-6">
@@ -507,7 +544,11 @@
               </div>
             </div>
           </div>
-          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div
+            class="w-full px-4 lg:w-1/2 xl:w-1/3"
+            data-aos="fade-right"
+            data-aos-duration="1300"
+          >
             <div class="bg-white mb-10 rounded-xl shadow-lg overflow-hidden">
               <img src="img/foto3.jpg" alt="" class="w-full object-cover" />
               <div class="py-8 px-6">
@@ -780,5 +821,9 @@
     <!-- footer end -->
 
     <script src="src/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
