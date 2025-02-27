@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
@@ -16,14 +16,14 @@
     <style>
       html,
       body {
-        overflow-x: hidden;
+        overflow-x: auto;
       }
     </style>
   </head>
-  <body class="overflow-x-auto">
+  <body class="overflow-x-hidden">
     <!-- header start -->
     <header
-      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-20 overflow-x-auto"
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-20 overflow-visible"
     >
       <div class="container">
         <div class="flex items-center justify-between relative">
@@ -52,7 +52,7 @@
 
             <nav
               id="nav-menu"
-              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-[100%] z-50 lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
             >
               <ul class="block lg:flex">
                 <li class="group">
@@ -806,6 +806,16 @@
       </div>
     </footer>
     <!-- footer end -->
+
+    <!-- back to top start -->
+    <a
+      id="to-top"
+      href="#home"
+      class="hidden fixed justify-center items-center z-[999] bottom-5 right-5 p-5 h-14 w-14 bg-primary rounded-full hover:animate-pulse"
+    >
+      <span class="block w-5 h-5 border-t-2 border-l-2 rotate-45 mt-2"></span
+    ></a>
+    <!-- back to top end -->
 
     <script src="src/script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
